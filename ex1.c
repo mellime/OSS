@@ -15,7 +15,7 @@ int main()
 	
 	scanf("%d", &k);	
 	
-	if (M < N)
+	if (M <= N)
 	{
 		for (i = 0; i < M; i += k)
 	    {		
